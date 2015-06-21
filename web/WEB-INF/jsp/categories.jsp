@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <tiles:insertDefinition name="defaultTemplate">
-    <tiles:putAttribute name="body">
+    <tiles:putAttribute name="content">
         <div class="container">
             <div class="jumbotron">
                 <h1>Browse categories</h1>
@@ -29,9 +29,9 @@
                         </div>
                         <div class="panel-body">
                             <ul>
-                                <c:forEach items="${basket}" var="item">
-                                    <li>${item.value.good.name} : <span>${item.value.count}</span></li>
-                                    </c:forEach>
+                                <%--<c:forEach items="${basket}" var="item">--%>
+                                    <%--<li>${item.value.good.name} : <span>${item.value.count}</span></li>--%>
+                                    <%--</c:forEach>--%>
                             </ul>
                         </div>
                     </div>
