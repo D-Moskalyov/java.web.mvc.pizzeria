@@ -38,7 +38,7 @@
        <!--</security:http>-->
 
        <security:http auto-config='true'>
-              <security:intercept-url pattern="/*" access="hasRole('ROLE_ANONYMOUS')" />
+              <security:intercept-url pattern="/" access="hasRole('ROLE_ANONYMOUS')" />
               <security:intercept-url pattern="/login" access="hasRole('ROLE_USER,ROLE_ANONYMOUS')" />
               <security:intercept-url pattern="/user/*" access="hasRole('ROLE_USER')" />
               <security:intercept-url pattern="/shop*" access="hasRole('ROLE_USER')" />
