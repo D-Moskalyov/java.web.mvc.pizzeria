@@ -51,7 +51,7 @@
                                    authentication-failure-url="/login?error=true" />
               <security:logout logout-url="/logout" logout-success-url="/shop" />
 
-              <security:anonymous username="guest" granted-authority="hasRole('ROLE_ANONYMOUS')" />
+              <!--<security:anonymous username="guest" granted-authority="hasRole('ROLE_ANONYMOUS')" />-->
               <security:remember-me />
        </security:http>
 

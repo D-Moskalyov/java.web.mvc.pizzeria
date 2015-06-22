@@ -213,6 +213,7 @@
             <!--<artifactId>jboss-logging</artifactId>-->
             <!--<version>3.1.0.CR2</version>-->
         <!--</dependency>-->
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
@@ -259,6 +260,7 @@
             <artifactId>tiles-extras</artifactId>
             <version>3.0.5</version>
         </dependency>
+
         <dependency>
             <groupId>commons-digester</groupId>
             <artifactId>commons-digester</artifactId>
