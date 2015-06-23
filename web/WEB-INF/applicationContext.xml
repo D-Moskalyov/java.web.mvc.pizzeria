@@ -39,21 +39,24 @@
 
        <security:http auto-config='true'>
               <security:intercept-url pattern="/" access="hasRole('ROLE_ANONYMOUS')" />
-              <security:intercept-url pattern="/login" access="hasRole('ROLE_USER,ROLE_ANONYMOUS')" />
+              <security:intercept-url pattern="/user/login" access="hasRole('ROLE_USER,ROLE_ANONYMOUS')" />
               <security:intercept-url pattern="/user/*" access="hasRole('ROLE_USER')" />
               <security:intercept-url pattern="/shop*" access="hasRole('ROLE_USER')" />
               <!--<security:form-login login-processing-url="/static/j_spring_security_check"-->
                                    <!--login-page="/login" -->
                                    <!--default-target-url="/user/show"-->
                                    <!--authentication-failure-url="/user/login?error=true" />-->
-              <security:form-login login-page="/login"
+              <security:form-login login-page="/user/login"
                                    default-target-url="/shop"
                                    authentication-failure-url="/login?error=true" />
-              <security:logout logout-url="/logout" logout-success-url="/shop" />
+              <security:logout logout-url="/user/logout" logout-success-url="/shop" />
 
               <!--<security:anonymous username="guest" granted-authority="hasRole('ROLE_ANONYMOUS')" />-->
               <security:remember-me />
        </security:http>
+       <security:authentication-manager>
+              <security:authentication-provider user-service-ref="userDAO" />
+       </security:authentication-manager>
 
        <!--<bean id="authenticationFilter" class=-->
                <!--"org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">-->

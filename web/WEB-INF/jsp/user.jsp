@@ -1,6 +1,6 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <tiles:insertDefinition name="defaultTemplate">
-    <tiles:putAttribute name="content">
+    <tiles:putAttribute name="body">
         <div class="container">
             <div class="jumbotron">
                 <h1>${current.name}'s Profile</h1>
