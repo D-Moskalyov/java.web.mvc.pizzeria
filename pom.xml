@@ -188,37 +188,27 @@
             <version>1.1.1</version>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.glassfish.web</groupId>-->
-            <!--<artifactId>javax.servlet.jsp.jstl</artifactId>-->
-            <!--<version>1.2.2</version>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.10</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.6.4</version>
+            <version>1.7.6</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-nop</artifactId>
-            <version>1.6.4</version>
+            <version>1.7.6</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.jboss.logging</groupId>-->
-            <!--<artifactId>jboss-logging</artifactId>-->
-            <!--<version>3.1.0.CR2</version>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
-            <version>1.6.4</version>
+            <version>1.7.6</version>
         </dependency>
 
         <dependency>
@@ -241,26 +231,26 @@
             <artifactId>tiles-servlet</artifactId>
             <version>3.0.5</version>
         </dependency>
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-request-api</artifactId>
-            <version>1.0.6</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-test-common</artifactId>
-            <version>3.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-template</artifactId>
-            <version>3.0.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-extras</artifactId>
-            <version>3.0.5</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-request-api</artifactId>-->
+            <!--<version>1.0.6</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-test-common</artifactId>-->
+            <!--<version>3.0.5</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-template</artifactId>-->
+            <!--<version>3.0.5</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-extras</artifactId>-->
+            <!--<version>3.0.5</version>-->
+        <!--</dependency>-->
 
         <!--<dependency>-->
             <!--<groupId>commons-digester</groupId>-->
