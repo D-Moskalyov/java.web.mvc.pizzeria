@@ -231,21 +231,21 @@
             <artifactId>tiles-servlet</artifactId>
             <version>3.0.5</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.apache.tiles</groupId>-->
-            <!--<artifactId>tiles-request-api</artifactId>-->
-            <!--<version>1.0.6</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-request-api</artifactId>
+            <version>1.0.6</version>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>org.apache.tiles</groupId>-->
             <!--<artifactId>tiles-test-common</artifactId>-->
             <!--<version>3.0.5</version>-->
         <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.apache.tiles</groupId>-->
-            <!--<artifactId>tiles-template</artifactId>-->
-            <!--<version>3.0.5</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>org.apache.tiles</groupId>
+            <artifactId>tiles-template</artifactId>
+            <version>3.0.5</version>
+        </dependency>
         <!--<dependency>-->
             <!--<groupId>org.apache.tiles</groupId>-->
             <!--<artifactId>tiles-extras</artifactId>-->
